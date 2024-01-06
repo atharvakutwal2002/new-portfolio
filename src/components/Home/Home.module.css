@@ -1,0 +1,35 @@
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    height: 70vh;
+}
+
+.img{
+    width: 400px;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    line-height: 0px;
+   gap: 10px;
+    height: auto;
+}
+
+.textOne{
+    font-size: 20px;
+    color: orange;
+    font-family: 'Times New Roman', Times, serif;
+}
+.textThree{
+    font-size: 20px;
+    color: rgb(95, 92, 92);
+    margin-top: 40px;
+}
+
+.textTwo{
+    font-size: 50px;
+    margin-top: 20px;
+}

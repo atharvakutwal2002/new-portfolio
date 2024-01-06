@@ -1,0 +1,23 @@
+.socials {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: #fafafa;
+  padding: 10px 0px;
+  align-items: center;
+  gap: 20px;
+}
+
+.icons {
+  display: flex;
+  gap: 20px;
+  font-size: 25px;
+}
+
+.icons a {
+  color: rgb(66, 64, 64);
+}
+
+.text {
+  font-size: 22px;
+}

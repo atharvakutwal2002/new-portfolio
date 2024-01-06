@@ -1,0 +1,35 @@
+.main{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+    color: black;
+    height: 100px;
+    gap: 60px;
+    background-color: #FAFAFA;
+    padding-bottom: 8px;
+    
+}
+
+.logo{
+    width: 160px;
+    height: 70px;
+}
+
+.logoImg{
+    width: 160px;
+    height: 70px;
+}
+
+.navElements{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    padding-top: 12px;
+}
+
+.navlinks{
+    font-size: 22px;
+}
+
