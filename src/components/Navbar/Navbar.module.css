@@ -34,3 +34,30 @@
     cursor: pointer;
 }
 
+@media (max-width: 480px) {
+    .main{
+        gap: 30px;
+        padding-right: 20px;
+    }
+    .navlinks{
+        font-size: 20px;
+        
+    }
+    .navElements{
+        
+        gap: 10px;
+        padding-top: 30px;
+    }
+}
+
+@media (max-width:376px) {
+    .navlinks{
+        font-size: 18px;
+        
+    }
+    .navElements{
+        
+        gap: 10px;
+        padding-top: 50px;
+    }
+}

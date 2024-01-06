@@ -12,7 +12,7 @@ const Project = () => {
     <div>
       <div className={classes.headingSection}>
         <TypeAnimation
-          sequence={[`Here are some of my Projects ! You can visit my github for more !.`, 1000, ""]}
+          sequence={[`Here are some of my Projects !.`, 1000, ""]}
           speed={60}
           style={{ whiteSpace: "pre-line" }}
           repeat={Infinity}

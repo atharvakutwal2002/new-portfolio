@@ -5,8 +5,8 @@ import AboutMe from "./AboutMe/AboutMe";
 import Project from "./Projects/Project";
 
 const About = () => {
-  const [about, setAbout] = useState(false);
-  const [project, setProject] = useState(true);
+  const [about, setAbout] = useState(true);
+  const [project, setProject] = useState(false);
   const [skills, setSkills] = useState(false);
   return (
     <div className={classes.main}>

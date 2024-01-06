@@ -11,10 +11,17 @@ const Home = () => {
         <p className={classes.textOne}>Hi, my name is </p>
         <p className={classes.textTwo}>Atharva Kutwal</p>
         <TypeAnimation
-          sequence={["Full Stack Developer !", 1000, "Software Engineer !", 1000 , "Gym Freak !", 1000]}
+          sequence={[
+            "Full Stack Developer !",
+            1000,
+            "Software Engineer !",
+            1000,
+            "Gym Freak !",
+            1000,
+          ]}
           speed={50}
           repeat={Infinity}
-          style={{ fontSize: "2em" }}
+          style={{ fontSize: "1.5em" }}
         />
 
         <p className={classes.textThree}>Building things for Web !</p>

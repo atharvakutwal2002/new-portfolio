@@ -21,7 +21,7 @@ const Footer = () => {
         </a>
       </div>
       <div className={classes.text}>
-       |  Made with ❤ by Atharva 
+       |  Made with ❤ by Atharva |
       </div>
     </div>
   );
