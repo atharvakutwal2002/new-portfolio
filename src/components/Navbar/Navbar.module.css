@@ -4,7 +4,7 @@
     justify-content: center;
     
     color: black;
-    height: 100px;
+    height: 10vh;
     gap: 60px;
     background-color: #FAFAFA;
     padding-bottom: 8px;
@@ -26,10 +26,11 @@
     justify-content: space-between;
     align-items: center;
     gap: 20px;
-    padding-top: 12px;
+    padding-top: 40px;
 }
 
 .navlinks{
     font-size: 22px;
+    cursor: pointer;
 }
 

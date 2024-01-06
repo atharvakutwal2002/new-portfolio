@@ -1,0 +1,41 @@
+.main {
+  width: 100vw;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url("bg.jpg");
+}
+
+.links {
+  display: flex;
+  gap: 20px;
+  padding: 5px 0px;
+}
+
+.links a {
+  width: 80px;
+  text-align: center;
+  cursor: pointer;
+  font-size: 20px;
+  /* From https://css.glass */
+  background: rgba(255, 255, 255, 0.16);
+  border-radius: 5px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(6.9px);
+  -webkit-backdrop-filter: blur(6.9px);
+  border: 1px solid rgba(255, 255, 255, 0.21);
+}
+
+.links a:active{
+    text-decoration: underline;
+}
+
+.content {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
