@@ -6,9 +6,9 @@ import Project from "./Projects/Project";
 import Skills from "./Skills/Skills";
 
 const About = () => {
-  const [about, setAbout] = useState(false);
+  const [about, setAbout] = useState(true);
   const [project, setProject] = useState(false);
-  const [skills, setSkills] = useState(true);
+  const [skills, setSkills] = useState(false);
   return (
     <div className={classes.main}>
       <div className={classes.links}>

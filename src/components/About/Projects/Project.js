@@ -29,10 +29,10 @@ const Project = () => {
               This is Website build on top of MERN Stack .
             </p>
             <div className={classes.iconSection}>
-              <a>
+              <a target="_blank" href="https://github.com/atharvakutwal2002/Ecommerce">
                 <img className={classes.icon} src={github}></img>
               </a>
-              <a>
+              <a target="_blank" href="https://ecommerce-mrzf-d7k5v8fbv-atharvakutwal2002-gmailcom.vercel.app/">
                 <img className={classes.icon} src={live}></img>
               </a>
             </div>
@@ -44,13 +44,13 @@ const Project = () => {
           <div className={classes.details}>
             <p className={classes.title}>Personal Blog Website</p>
             <p className={classes.projDetails}>
-              This is Website build on top of MERN Stack .
+              Building using NextJS Framework and MERN Stack .
             </p>
             <div className={classes.iconSection}>
-              <a>
+              <a target="_blank" href="https://github.com/atharvakutwal2002/my-blogs">
                 <img className={classes.icon} src={github}></img>
               </a>
-              <a>
+              <a target="_blank" href="https://my-blogs-seven.vercel.app/">
                 <img className={classes.icon} src={live}></img>
               </a>
             </div>
@@ -62,13 +62,13 @@ const Project = () => {
           <div className={classes.details}>
             <p className={classes.title}>Food Order Web application</p>
             <p className={classes.projDetails}>
-              This is Website build on top of MERN Stack .
+              ReactJS used in frontend and firebase as backend .
             </p>
             <div className={classes.iconSection}>
-              <a>
+              <a target="_blank" href="https://github.com/atharvakutwal2002/Biryani-House">
                 <img className={classes.icon} src={github}></img>
               </a>
-              <a>
+              <a target="_blank" href="https://biryani-house-59tm.vercel.app/">
                 <img className={classes.icon} src={live}></img>
               </a>
             </div>
