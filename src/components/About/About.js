@@ -3,11 +3,12 @@ import classes from "./About.module.css";
 import { useState } from "react";
 import AboutMe from "./AboutMe/AboutMe";
 import Project from "./Projects/Project";
+import Skills from "./Skills/Skills";
 
 const About = () => {
-  const [about, setAbout] = useState(true);
+  const [about, setAbout] = useState(false);
   const [project, setProject] = useState(false);
-  const [skills, setSkills] = useState(false);
+  const [skills, setSkills] = useState(true);
   return (
     <div className={classes.main}>
       <div className={classes.links}>
@@ -42,7 +43,7 @@ const About = () => {
       <div className={classes.content}>
         {about && <AboutMe/>}
         {project && <Project/>}
-        {skills && <p>skills</p>}
+        {skills && <Skills/>}
       </div>
     </div>
   );

@@ -11,9 +11,9 @@ const Navbar = () => {
         <img className={classes.logoImg} src={logo} alt="/logo"></img>{" "}
       </div>
       <div className={classes.navElements}>
-        <a className={classes.navlinks}>Home</a>
-        <a className={classes.navlinks}>About</a>
-        <a className={classes.navlinks}>Contact</a>
+        <a href="/" className={classes.navlinks}>Home</a>
+        <a href="/about" className={classes.navlinks}>About</a>
+        <a href="/contact" className={classes.navlinks}>Contact</a>
       </div>
     </div>
   );

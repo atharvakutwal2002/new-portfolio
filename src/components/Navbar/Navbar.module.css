@@ -32,6 +32,12 @@
 .navlinks{
     font-size: 22px;
     cursor: pointer;
+    text-decoration: none;
+    color: black;
+}
+
+.navlinks:active{
+    text-decoration: underline;
 }
 
 @media (max-width: 480px) {
