@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import classes from "./Project.module.css";
 import ecom from "./ecom.svg";
 import blog from "./blog.svg";
@@ -6,8 +6,13 @@ import food from "./food.png";
 import github from "./github.svg";
 import live from "./live.svg";
 import { TypeAnimation } from "react-type-animation";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 const Project = () => {
+  useEffect(() => {
+    Aos.init({ duration: 2000 });
+  }, []);
   return (
     <div>
       <div className={classes.headingSection}>
@@ -21,7 +26,7 @@ const Project = () => {
       </div>
 
       <div className={classes.projects}>
-        <div className={classes.projectCard}>
+        <div data-aos="flip-left" className={classes.projectCard}>
           <img className={classes.image} src={ecom}></img>
           <div className={classes.details}>
             <p className={classes.title}>Ecommerce Web application</p>
@@ -39,7 +44,7 @@ const Project = () => {
           </div>
         </div>
 
-        <div className={classes.projectCard}>
+        <div data-aos="flip-right" className={classes.projectCard}>
           <img src={blog}></img>
           <div className={classes.details}>
             <p className={classes.title}>Personal Blog Website</p>
@@ -57,7 +62,7 @@ const Project = () => {
           </div>
         </div>
 
-        <div className={classes.projectCard}>
+        <div data-aos="flip-left" className={classes.projectCard}>
           <img src={food}></img>
           <div className={classes.details}>
             <p className={classes.title}>Food Order Web application</p>

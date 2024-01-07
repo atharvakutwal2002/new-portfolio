@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import classes from "./Skills.module.css";
 import js from "./js.png";
 import cpp from "./cpp.png";
@@ -14,11 +14,16 @@ import express from "./express.png";
 import node from "./node.png";
 import mongo from "./mongo.png";
 import firebase from "./firebase.png";
+import Aos from "aos";
+import "aos/dist/aos.css"
 
 const Skills = () => {
+  useEffect(()=>{
+    Aos.init({duration:2000});
+  },[])
   return (
     <div className={classes.main}>
-      <div className={classes.subSection}>
+      <div data-aos="fade-left" className={classes.subSection}>
         {" "}
         <p>Programming Languages</p>
         <div className={classes.iconSection}>
@@ -26,14 +31,14 @@ const Skills = () => {
           <img src={mysql}></img>{" "}
         </div>
       </div>
-      <div className={classes.subSection}>
+      <div data-aos="fade-right" className={classes.subSection}>
         <p> Technologies/Frameworks</p>
         <div className={classes.iconSection}>
           <img src={react} /> <img src={node} /> <img src={express} />{" "}
           <img src={mongo} /> <img src={firebase} /> <img src={next} />
         </div>
       </div>
-      <div className={classes.subSection}>
+      <div data-aos="fade-left" className={classes.subSection}>
         <p>Developer Tools</p>
         <div className={classes.iconSection}>
           <img src={git} /> <img src={github} /> <img src={netlify} />{" "}
